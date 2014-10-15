@@ -17,4 +17,4 @@
 
 - assert:
     that:
-      - apts3.stat.exists and apts3.stat.isfile
+      - apts3.stat.exists and apts3.stat.isreg
